@@ -1,0 +1,147 @@
+footer {
+  background-color: whitesmoke;
+  color: #fff;
+  padding: 30px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.div1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo2 {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}
+
+.div2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.div21 {
+  flex: 1;
+  text-align: center;
+}
+
+.ti {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #61dafb;
+}
+
+.frist {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.about p {
+  font-size: 1rem;
+  color: #3b3b3b;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.about1 {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.about1:hover {
+  color: #61dafb;
+  text-decoration: underline;
+}
+
+
+.copyrigth{
+  display: grid;
+  grid-template-columns: 1fr 1fr 100px;
+  padding: 5px 20px;
+}
+
+hr{
+  color: black;
+  font-weight: bold;
+}
+
+.f{
+  color: black;
+  font-size: 20px;
+}
+
+.s{
+  color: black;
+  font-size: 20px;  
+}
+
+.l{
+  border: 0;
+  background-color: #61dafb;
+  color: white;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.sm{
+  color: #61dafb;
+  font-size: 50px;
+  transition: 0.5s;
+}
+
+.sm:hover{
+  color: white;
+  background-color: #61dafb;
+}
+
+@media (max-width: 768px) {
+  .div2 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .frist {
+    flex-direction: column;
+  }
+
+  .about {
+    margin-bottom: 20px;
+  }
+
+  .sm {
+    margin: 5px 8px;
+    font-size: 30px;
+  }
+}
+
+.button{
+  background-color: #61dafb;
+  font-size: 25px;
+  border: none;
+  color: whitesmoke;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  transition: 0.25s;
+  box-shadow: 0 10px 10px rgb(122, 122, 122);
+  text-decoration: none;
+}
+
+.button:hover{
+  background-color:  whitesmoke;
+  color:#61dafb;
+  box-shadow: 0 14px 14px rgb(122, 122, 122);
+}

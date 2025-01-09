@@ -1,0 +1,44 @@
+.paragraph{
+  padding: 10px 20px;
+}
+.global-outreach-dis{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.words{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.word{
+  color: rgb(46, 46, 46);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img img{
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .global-outreach-dis{
+    grid-template-columns: 1fr;
+  }
+  .word{
+    font-size: 20px;
+  }
+}
+
+.paragraph {
+  font-size: 25px;
+  color: black;
+}
